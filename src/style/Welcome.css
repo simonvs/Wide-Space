@@ -1,0 +1,31 @@
+.welcome-mensage-cont{
+    padding:2rem;
+    
+}
+
+.welcome-mensage{
+    background-color:rgb(211,117,22);
+    padding: 2rem;
+    color:white;
+    font-family: 'Montserrat'; 
+}
+
+.welcome-buttom{
+    padding:1rem;
+    
+}
+
+@media (max-width: 486px){
+    .welcome-mensage h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .welcome-mensage h2 {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .welcome-buttom{
+        text-align: center;
+    }
+}
